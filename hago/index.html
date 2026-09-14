@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>박제이 · 퍼포먼스 마케팅 포트폴리오 (하고하우스)</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+:root{--bg:#F5F5F7;--card:#fff;--dark:#1D1D1F;--ink:#1D1D1F;--body:#333;--mute:#5E5E63;--dim:#3C3C41;--acc:#0066CC;--accd:#2997FF;--line:#E0E0E0;--dline:#3A3A3C;--dtxt:#F5F5F7;--dmute:#B4B4B9}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;overflow-x:hidden;background:var(--bg);color:var(--body);font-family:Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;font-size:16px;line-height:1.65;word-break:keep-all;-webkit-font-smoothing:antialiased}
+a{color:var(--acc);text-decoration:none}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:0;background:rgba(245,245,247,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);z-index:10}
+nav .wrap{display:flex;align-items:center;gap:20px;height:52px;overflow-x:auto;white-space:nowrap}
+nav b{font-weight:600;color:var(--ink);margin-right:8px}
+nav a{color:var(--mute);font-size:14px;letter-spacing:.02em}
+nav a:hover{color:var(--acc)}
+section{padding:72px 0;border-bottom:1px solid var(--line)}
+.eyebrow{font-size:13px;letter-spacing:.18em;color:var(--acc);font-weight:600;text-transform:uppercase;margin-bottom:14px}
+h1{font-size:clamp(40px,7vw,72px);line-height:1.05;letter-spacing:-.03em;margin:0 0 20px;color:var(--ink);font-weight:600}
+h2{font-size:clamp(24px,3.4vw,34px);line-height:1.25;letter-spacing:-.02em;margin:0 0 28px;color:var(--ink);font-weight:600}
+h2 em{font-style:normal;color:var(--acc)}
+h3{font-size:17px;margin:0 0 8px;color:var(--ink);font-weight:600}
+p{margin:0 0 12px}
+.sub{color:var(--dim)}
+.small{font-size:14px;color:var(--mute)}
+.grid{display:grid;gap:18px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(min(300px,100%),1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(min(200px,100%),1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:22px}
+.card .lab{font-size:13px;letter-spacing:.12em;color:var(--mute);margin-bottom:8px}
+.card .big{font-size:38px;font-weight:600;letter-spacing:-.03em;color:var(--ink);line-height:1}
+.card .big i{font-style:normal;color:var(--acc)}
+.dark{background:var(--dark);color:var(--dtxt);border-color:transparent}
+.dark .lab,.dark .small{color:var(--dmute)}
+.dark .big{color:var(--dtxt)}
+.dark .big i{color:var(--accd)}
+.dark h3{color:var(--dtxt)}
+.dark hr{border:0;border-top:1px solid var(--dline);margin:14px 0}
+.dark .acc{color:var(--accd)}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th{font-weight:500;color:var(--mute);text-align:left;padding:10px 8px;border-bottom:2px solid var(--ink);font-size:13px;letter-spacing:.06em}
+td{padding:12px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+td.r,th.r{text-align:right}
+td b{font-weight:600;color:var(--ink)}
+td .acc{color:var(--acc);font-weight:600}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tw table{min-width:640px}
+.mark{display:inline-block;min-width:26px;text-align:center;font-weight:600;border-radius:6px;padding:1px 7px;font-size:13px}
+.O{background:#E6F0FB;color:var(--acc)}.X{background:#EFEFF1;color:#8A8A8E}.T{background:#FFF4E0;color:#B8730A}
+.rows{display:grid;gap:14px}
+.row{display:grid;grid-template-columns:72px 1fr;gap:14px;align-items:start}
+.row .k{font-size:13px;letter-spacing:.12em;color:var(--acc);font-weight:600;padding-top:4px}
+.bar{height:10px;background:var(--acc);border-radius:3px}
+.bar.g{background:var(--line)}
+.foot{font-size:13px;color:var(--mute);letter-spacing:.06em;margin-top:28px;padding-top:14px;border-top:1px solid var(--line)}
+.imgs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(128px,100%),1fr));gap:14px}
+.imgs figure{margin:0}
+.imgs img{width:100%;aspect-ratio:3/2;object-fit:contain;padding:4px;border-radius:8px;border:1px solid var(--line);background:#fff}
+.imgs figcaption{font-size:13px;color:var(--mute);margin-top:6px}
+.hero{padding:96px 0 72px}
+.hero .meta{display:flex;flex-wrap:wrap;gap:8px 22px;color:var(--dim);font-size:15px;margin-top:22px}
+.hero .meta b{color:var(--acc);font-weight:600}
+.btn{display:inline-block;background:var(--ink);color:#fff;padding:10px 18px;border-radius:999px;font-size:14px;font-weight:500}
+.btn.o{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(260px,100%),1fr));gap:18px}
+.step .d{font-size:13px;letter-spacing:.14em;color:var(--acc);font-weight:600}
+ul{margin:8px 0 0;padding-left:18px}
+li{margin-bottom:6px}
+footer{padding:48px 0 64px;color:var(--mute);font-size:14px}
+@media (max-width:640px){section{padding:52px 0}.row{grid-template-columns:1fr;gap:4px}}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap">
+<b>박제이</b>
+<a href="#summary">요약</a><a href="#career">경력</a><a href="#fit">요건 매칭</a><a href="#record">실적</a><a href="#case1">사례</a><a href="#creative">소재</a><a href="#tools">도구</a><a href="#diag">하고하우스 진단</a><a href="#plan">90일</a><a href="#close">마무리</a>
+</div></nav>
+
+<!-- 01 HERO -->
+<header class="hero"><div class="wrap">
+<div class="eyebrow">Brand &amp; Performance Marketing · Portfolio · 2026.09 · (주)하고하우스 · 어몽 · 큐리티 브랜드 마케팅 지원</div>
+<h1>박제이<span style="color:var(--acc)">.</span></h1>
+<p style="font-size:22px;color:var(--ink);font-weight:600;margin:0">브랜드별 손익 기준을 먼저 정하고,</p>
+<p style="font-size:22px;color:var(--dim);margin:0 0 8px">매일 그 기준으로 마감 관리를 합니다.</p>
+<div class="meta"><span><b>266일</b> 일일 마감</span><span>통합 ROAS <b>217%</b></span><span>손익분기 상회 <b>258일</b></span><span>9개월 누적 <b>60억대</b></span><span>5개 브랜드 · 6개 매체</span></div>
+<div style="margin-top:28px;display:flex;gap:10px;flex-wrap:wrap"><a class="btn" href="portfolio.pdf">PDF로 보기 (18장)</a><a class="btn o" href="mailto:parkjei1203@gmail.com">parkjei1203@gmail.com</a></div>
+<p class="small" style="margin-top:20px">요건 중 안 되는 항목도 그대로 적었습니다. 모든 수치의 출처는 사내 일일 광고효율보고 원문 266건입니다.</p>
+</div></header>
+
+<!-- 02 SUMMARY -->
+<section id="summary"><div class="wrap">
+<div class="eyebrow">01 · One-page summary</div>
+<h2>국내 D2C 브랜드 4개, 9개월간 <em>60억대</em> 집행<br><span class="sub" style="font-weight:500">브랜드를 알리는 일과 숫자로 증명하는 일을 같이 합니다.</span></h2>
+<div class="grid g3">
+<div class="card"><div class="lab">[ 누적 집행 ] · 01</div><div class="big">60억대<i>.</i></div><p class="small" style="margin-top:10px">2025.12 – 2026.08 · 4개 브랜드<br>누적 매출 140억대 · 월 최대 16억대 단독 집행</p></div>
+<div class="card"><div class="lab">[ 최장 계정 ROAS ] · 02</div><div class="big">267%<i>.</i></div><p class="small" style="margin-top:10px">브랜드 C · 89일 · 89일 전일 손익분기 상회<br>일평균 매출 9천만원대</p></div>
+<div class="card"><div class="lab">[ 나흘 복구 ] · 03</div><div class="big">+75%p<i>.</i></div><p class="small" style="margin-top:10px">127% → 152% → 153% → 202%<br>일 마감 ROAS · 동일 예산 규모 구간</p></div>
+</div>
+<h3 style="margin-top:36px;color:var(--acc);font-size:13px;letter-spacing:.12em">이 팀에서 할 수 있는 일</h3>
+<div class="rows" style="margin-top:14px">
+<div class="row"><div class="k">01</div><div><h3>인플루언서 · 서포터즈 운영</h3><p class="sub">대행사 2년간 발굴 · 섭외 · 단가 협의 · 가이드 · 검수 · 리포트 전 과정을 맡았고, 브랜드에서 구독자 272만 유튜버 정기 협업 체계를 만들었습니다. 원본 2차 활용 권리는 건마다 관리합니다.</p></div></div>
+<div class="row"><div class="k">02</div><div><h3>촬영 · 콘텐츠 · 대행사 관리</h3><p class="sub">제품 · 모델컷 촬영을 기획 · 디렉팅했고, 브랜드 블로그를 월 조회수 1,100%로 키웠습니다. PR · 바이럴 대행사와 클라이언트 브랜드 SNS 채널을 운영했습니다.</p></div></div>
+<div class="row"><div class="k">03</div><div><h3>Meta 광고와 그로스 협업</h3><p class="sub">Meta · Google 등 6개 매체를 직접 운영하며 소재 713장을 기획했고, 매체 리포트와 실매출이 다를 때 실매출로 판정합니다. 그로스 파트와 같은 숫자로 말합니다.</p></div></div>
+</div>
+<p class="foot">패션 브랜드 경력은 없습니다. 브랜드 마케팅은 로봇청소기, 인플루언서는 다수 클라이언트 브랜드 기준입니다. 요건별 판정은 아래 요건 매칭에.</p>
+</div></section>
+
+<!-- 03 CAREER -->
+<section id="career"><div class="wrap">
+<div class="eyebrow">02 · Career timeline</div>
+<h2>대행사, 브랜드 마케팅, 인하우스 퍼포먼스 순으로 <em>맡는 범위</em>가 넓어졌습니다.</h2>
+<div class="tw"><table>
+<tr><th>기간</th><th>회사</th><th>역할</th><th>한 일</th><th>매체</th></tr>
+<tr><td>2021.11 – 2023.09</td><td><b>㈜핫셀러</b></td><td>광고대행사 · 매니저</td><td>클라이언트 브랜드 제안부터 운영, 결과 보고까지 담당</td><td class="small">SNS · 키워드 · 인플루언서</td></tr>
+<tr><td>2023.12 – 2025.06</td><td><b>몹스 → 아이베</b></td><td>브랜드 마케팅 · 로봇청소기</td><td>플래그십 신제품 론칭 기획, 사전예약 CRM 설계</td><td class="small">OOH · 지하철 · TV CF · 디지털</td></tr>
+<tr><td>2025.06 – 2025.11</td><td><b>New Select</b></td><td>다브랜드 운영 지원</td><td>3~4개 계정의 데이터 정리와 운영 지원</td><td class="small">Meta · Google · TikTok</td></tr>
+<tr><td>2025.12 – 2026.03</td><td><b>New Select</b></td><td>주담당 · 2개 병행</td><td>브랜드 C 89일 평균 ROAS 267%, 브랜드 D 병행</td><td class="small">+ 쿠팡 · 네이버 · 카카오모먼트</td></tr>
+<tr><td><span class="acc">2026.06 – 현재</span></td><td><b>New Select</b></td><td>단독 운영 → 인계 → 재인수</td><td>월 최대 16억대 단독 집행. 8월에 두 계정을 인계하고 다섯 번째 브랜드 인수</td><td class="small">동일 · 6개 매체</td></tr>
+</table></div>
+<div class="grid g3" style="margin-top:22px">
+<div><div class="small">월 집행</div><div>월 8 – 16억대 (2025.12 – 2026.08 실적)</div></div>
+<div><div class="small">담당 범위</div><div>매체 운영 · 소재 기획 · CRM · 브랜딩 캠페인 · 데이터/자동화 전 구간</div></div>
+<div><div class="small">담당 브랜드</div><div>D2C 소비재 5개, 본 문서에서는 A~E로 표기</div></div>
+</div>
+<p class="foot">대행사에서 시작해 지금은 일 매출 억 단위 계정의 손익 관리를 혼자 맡고 있습니다.</p>
+</div></section>
+
+<!-- 04 FIT -->
+<section id="fit"><div class="wrap">
+<div class="eyebrow">03 · Fit matrix</div>
+<h2>요건별로 되는 것과 <em>안 되는 것</em>을 그대로 적었습니다.</h2>
+<div class="grid g2" style="align-items:start">
+<div class="tw"><table>
+<tr><th colspan="3">자격 요건</th></tr>
+<tr><td>경력 2년 이상</td><td class="small">5년차 · 브랜드 마케팅 1년 6개월 · 대행사 2년 · 퍼포먼스 1년 3개월</td><td class="r"><span class="mark O">O</span></td></tr>
+<tr><td>패션 · 뷰티 브랜드 마케팅 또는 홍보 경력</td><td class="small">브랜드 마케팅 1년 6개월(소비재) · 뷰티 2026.08 – · 패션은 없음</td><td class="r"><span class="mark T">△</span></td></tr>
+<tr><td>SNS 채널 운영 · 콘텐츠 기획</td><td class="small">클라이언트 브랜드 SNS 운영 2년 · 브랜드 블로그 월 조회수 1,100% (브랜드 마케팅)</td><td class="r"><span class="mark O">O</span></td></tr>
+<tr><td>인플루언서 · 서포터즈 마케팅 경험</td><td class="small">발굴 · 섭외 · 검수 · 리포트 2년 · 272만 유튜버 정기 협업 · 체험단</td><td class="r"><span class="mark O">O</span></td></tr>
+<tr><td>시즌 룩북 촬영 진행 · 이미지 셀렉</td><td class="small">제품 · 모델컷 촬영 기획 · 디렉팅 (브랜드 마케팅)</td><td class="r"><span class="mark O">O</span></td></tr>
+<tr><td>홍보대행사 관리 · 유관부서 협업</td><td class="small">PR · 바이럴 대행사 관리 · 디자인 · 콘텐츠 · CS팀 협업</td><td class="r"><span class="mark O">O</span></td></tr>
+<tr><td>Meta 광고 집행 · 그로스 파트 협업</td><td class="small">Meta · Google 등 6개 매체 직접 운영 · 소재 713장 (실적)</td><td class="r"><span class="mark O">O</span></td></tr>
+</table></div>
+<div class="card dark">
+<div class="lab">공고 밖 가점</div>
+<div class="rows" style="gap:12px">
+<div><b>콘텐츠 2차 활용 소스 수급</b> <span class="mark O" style="float:right">O</span><div class="small">인플루언서 원본 2차 활용 숏폼 62편 · 권리 관리</div></div>
+<div><b>카카오톡 채널 운영</b> <span class="mark O" style="float:right">O</span><div class="small">카카오 채널 팝업 · 알림톡 CRM 소재 296장</div></div>
+<div><b>성과를 숫자로 보고</b> <span class="mark O" style="float:right">O</span><div class="small">266일 일일 마감 · 소재 자동 판정 (도구)</div></div>
+</div></div>
+</div>
+<p style="margin-top:28px"><b style="color:var(--acc)">자격요건 4개 중 3개, 주요업무 3개는 전부 해당합니다.</b> 패션 브랜드 경력이 없는 것은 그대로 적었습니다.</p>
+<div class="rows" style="margin-top:14px">
+<div class="row"><div class="k">01</div><div><b>패션은 처음이지만, 인플루언서를 섭외해 콘텐츠를 받고 2차 광고까지 잇는 일은 카테고리와 무관하게 같습니다.</b><div class="small">272만 유튜버 정기 협업 · 최대 조회 44만 (브랜드 마케팅)</div></div></div>
+<div class="row"><div class="k">02</div><div><b>브랜드 마케팅과 Meta 광고를 한 사람이 해봤습니다. 그로스 파트와 같은 숫자로 말할 수 있습니다.</b><div class="small">6개 매체 · 실매출 판정 (실적 · 도구)</div></div></div>
+<div class="row"><div class="k">03</div><div><b>패션 감도는 첫 30일에 어몽 · 큐리티 룩북 전 시즌과 하고 랭킹, 리뷰로 채우겠습니다.</b><div class="small">시즌 룩북 · 서포터즈 가설은 90일에</div></div></div>
+</div>
+</div></section>
+
+<!-- 05 RECORD -->
+<section id="record"><div class="wrap">
+<div class="eyebrow">04 · Track record</div>
+<h2>4개 브랜드 · <em>266일</em> · 통합 ROAS <em>217%</em> · 손익분기 상회 <em>258일(97.0%)</em></h2>
+<div class="tw"><table>
+<tr><th>브랜드</th><th>인수 형태</th><th>담당 기간</th><th class="r">보고</th><th class="r">일평균 매출</th><th class="r">최고 일매출</th><th class="r">ROAS</th><th class="r">BEP 상회</th></tr>
+<tr><td><b>브랜드 C</b></td><td>인계</td><td>2025.12.11 – 2026.03.11</td><td class="r">89일</td><td class="r">9천만원대</td><td class="r">1억 5천만원대</td><td class="r"><span class="acc">267%</span></td><td class="r">89 / 89</td></tr>
+<tr><td><b>브랜드 D</b></td><td>인계</td><td>2026.01.20 – 2026.03.30</td><td class="r">70일</td><td class="r">1,900만원대</td><td class="r">3,200만원대</td><td class="r"><span class="acc">179%</span></td><td class="r">63 / 70</td></tr>
+<tr><td><b>브랜드 A</b></td><td>인계</td><td>2026.06.29 – 2026.08.24</td><td class="r">56일</td><td class="r">8천만원대</td><td class="r">1억 3천만원대</td><td class="r"><span class="acc">179%</span></td><td class="r">56 / 56</td></tr>
+<tr><td><b>브랜드 B</b></td><td>채널 개설부터</td><td>2026.07.04 – 2026.08.24</td><td class="r">51일</td><td class="r">900만원 미만</td><td class="r">1,400만원대</td><td class="r"><span class="acc">173%</span></td><td class="r">50 / 51</td></tr>
+<tr><td><b>합계</b></td><td></td><td>2025.12 – 2026.08 · 9개월</td><td class="r">266일</td><td class="r" colspan="2">누적 매출 140억대 · 광고비 60억대</td><td class="r"><span class="acc">통합 217%</span></td><td></td></tr>
+</table></div>
+<h3 style="margin-top:32px;color:var(--acc);font-size:13px;letter-spacing:.12em">266일을 ROAS 구간으로</h3>
+<div class="grid g4" style="margin-top:12px">
+<div><div class="small">200% 이상</div><div class="bar" style="width:100%"></div><div style="color:var(--acc);font-weight:600">112일</div></div>
+<div><div class="small">180 – 199%</div><div class="bar" style="width:46%"></div><div style="color:var(--acc);font-weight:600">51일</div></div>
+<div><div class="small">138 – 179%</div><div class="bar g" style="width:85%"></div><div>95일</div></div>
+<div><div class="small">138% 미만</div><div class="bar g" style="width:7%"></div><div>8일</div></div>
+</div>
+<p class="foot">ROAS = 브랜드 전체 기준(자사몰 + 쿠팡 + 스마트스토어 + 외부몰) · 환불 반영 후 · 인계받은 계정 = A · C · D, 채널 개설부터 담당 = B · 브랜드명은 면접에서</p>
+</div></section>
+
+<!-- 06 CASE 1 -->
+<section id="case1"><div class="wrap">
+<div class="eyebrow">05 · Project 01 · 소재 노후화 판정 기준 수립 · 브랜드 A · B 공통 · 2026.07 · 단독</div>
+<h2>40일 최저 127%에서 <em>나흘 만에 202%</em>로 회복</h2>
+<div class="grid g2" style="align-items:start">
+<div class="rows">
+<div class="row"><div class="k">문제</div><div>40일 최저 일 마감 ROAS 127%로 손익분기 아래였습니다. 소재 몇 개를 2~3개월째 반복 노출하는 상태였습니다.</div></div>
+<div class="row"><div class="k">가설</div><div>소재 노후화를 경과 기간보다 누적 노출 대비 반응으로 봐야 한다고 판단했습니다. 빈도가 오르는 동안 CTR과 CPM이 나빠지고 CPA가 올랐는데 신규 도달은 늘지 않았습니다.</div></div>
+<div class="row"><div class="k">실행</div><div>판정 지표를 빈도, CTR/CPM 추이, CPA 추이, 증분 도달 4개로 정했습니다. 마감 전 착지 추정으로 목표 미달을 장중에 확인하고 원인 세 가지를 먼저 보고했습니다.</div></div>
+<div class="row"><div class="k">결과</div><div>나흘간 일 마감 ROAS 127 → 152 → 153 → 202%. 예산 규모는 같은 구간이었습니다.</div></div>
+<div class="row"><div class="k">학습</div><div>처음에는 예산 증액으로 되돌리려 했는데, 소재가 부족한 상태에서 예산만 올리니 빈도만 더 올라가서 접었습니다.</div></div>
+</div>
+<div class="card dark"><div class="lab">The headline number</div><div class="big">+75%p<i>.</i></div><div class="small" style="margin-top:8px">나흘 동안의 일 마감 ROAS 기준</div><hr>
+<table style="color:var(--dtxt)"><tr><td style="border-color:var(--dline)">DAY 00</td><td class="r" style="border-color:var(--dline)">127%</td></tr><tr><td style="border-color:var(--dline)">DAY 01</td><td class="r" style="border-color:var(--dline)">152%</td></tr><tr><td style="border-color:var(--dline)">DAY 02</td><td class="r" style="border-color:var(--dline)">153%</td></tr><tr><td style="border:0">DAY 03</td><td class="r acc" style="border:0">202%</td></tr></table>
+<hr><p class="acc" style="margin:0">이때 만든 소재 판정 기준을 다음에 인수한 계정에도 그대로 적용했습니다.</p></div>
+</div>
+<h3 style="margin-top:36px">나흘 동안 하루 한 단계로 진행했습니다</h3>
+<div class="steps" style="margin-top:14px">
+<div class="step"><div class="d">DAY 00 · DIAGNOSE</div><b>최저 127%. 원인을 누적 노출로 봤습니다</b><p class="small">노후화 판정을 빈도 · CTR/CPM 추이 · CPA 추이 · 증분 도달로 다시 정의했습니다.</p></div>
+<div class="step"><div class="d">DAY 01 · REPORT</div><b>마감 전에 목표 미달을 확정하고 원인 세 가지를 먼저 보고</b><p class="small">착지 추정으로 장중에 미달을 확인하고 마감 전에 보고했습니다.</p></div>
+<div class="step"><div class="d">DAY 02 · SUPPLY</div><b>판정 기준을 정하고 소재 공급을 다시 시작했습니다</b><p class="small">기준 미달 소재를 끄고 새 소재 자리를 만들었습니다. 근본 원인은 소재 수 부족이었습니다.</p></div>
+<div class="step"><div class="d">DAY 03 · REBALANCE</div><b>살아난 쪽으로 예산을 옮기고 전후를 스냅샷으로 비교</b><p class="small">조정 직후 스냅샷을 한 번 더 찍어 조정 효과를 확인했습니다. 다시 나빠진 구간은 기준의 반례로 기록했습니다.</p></div>
+<div class="step"><div class="d">DAY 04 · HARDEN</div><b>기준을 문서로 남기고 다음 계정에도 적용</b><p class="small">소재 ON/OFF 판정 기준을 노션에 정리해 팀이 쓰게 했습니다.</p></div>
+</div>
+<p class="foot">이후 개선: 소재 재고를 주 단위 공급 계획으로 관리 · 시즌마다 소재가 갈리는 패션일수록 이 사이클이 빨리 옵니다.</p>
+</div></section>
+
+<!-- 07 CASE 2 -->
+<section id="case2"><div class="wrap">
+<div class="eyebrow">06 · Project 02 · 프로모션 교체 뒤 매출 하락 원인 규명 · 브랜드 A · 2026.08 · 단독</div>
+<h2>처음 세운 가설을 <em>데이터로 기각</em>한 사례입니다.</h2>
+<div class="grid g2" style="align-items:start">
+<div class="rows">
+<div class="row"><div class="k">문제</div><div>가격은 그대로 두고 문구와 옵션명만 바꿨는데 매출이 빠졌습니다. 같은 기간 광고비도 줄어 매출 숫자만으로는 원인을 말할 수 없었습니다.</div></div>
+<div class="row"><div class="k">가설</div><div>첫 가설은 기존 고객 이탈이었습니다. 확인하려고 매출을 노출 × CTR × 유입 CVR × 객단가로 분해해 항목별 기여도를 계산했습니다.</div></div>
+<div class="row"><div class="k">실행</div><div>자사몰 퍼널, Meta, Google 세 곳을 교차 확인했습니다. 두 매체 낙폭 차이에서 어트리뷰션 랙 가능성을 잡았고, 랙과 실제 효과를 구분할 수 없는 항목은 판정 보류로 남겼습니다.</div></div>
+<div class="row"><div class="k">결과</div><div>첫 가설은 기각됐습니다. 하락은 랜딩 이후 신규 고객 구간이었습니다. 자사몰 방문 −26.4%, 결제 전환율 −26.1%.</div></div>
+<div class="row"><div class="k">학습</div><div>객단가 상승을 고가 상품이 잘 팔린 신호로 읽었던 초기 해석도 틀렸습니다. 저가 옵션을 사던 신규 고객이 빠져서 생긴 착시였습니다.</div></div>
+</div>
+<div class="card dark"><div class="lab">Receipts · 2026.08 · 직전 동일기간 대비</div>
+<div style="margin-top:14px"><div class="small">[ 첫 구매자 ]</div><div class="big" style="font-size:30px">−52.6%<i>.</i></div><div class="small">약 4,900 → 약 2,300명, 하락 집중 구간</div></div>
+<div style="margin-top:14px"><div class="small">[ 재구매자 ]</div><div class="big" style="font-size:30px">+7.5%<i>.</i></div><div class="small">160 → 172명, 기존 고객은 유지</div></div>
+<div style="margin-top:14px"><div class="small">[ 구글 클릭→전환 ]</div><div class="big" style="font-size:30px">−25.9%<i>.</i></div><div class="small">1.66% → 1.23%, 같은 구간 Meta는 −7.6%</div></div>
+<hr><p class="acc" style="margin:0">두 매체 수치가 다를 때 어느 쪽을 기준으로 볼지 미리 정해두고 운영합니다.</p></div>
+</div>
+<div class="card" style="margin-top:22px"><div class="lab">For HAGOHAUS</div>어몽 · 큐리티는 하고 플랫폼과 자사 채널, 백화점에서 같이 팔립니다. 이 사례의 방문 · 결제전환율 · 객단가 분해는 채널별 귀속 기준만 정하면 같은 방법으로 됩니다. 그로스 파트와 같은 표를 보는 근거입니다.</div>
+<p class="foot">분해 기준: 노출 × CTR × 유입 CVR × 객단가</p>
+</div></section>
+
+<!-- 08 CASE 3 -->
+<section id="case3"><div class="wrap">
+<div class="eyebrow">07 · Project 03 · 심사 차단 진단 · 집행 경로 재개통 · 브랜드 B · 6주</div>
+<h2>비승인 상태에서 <em>6주간 운영</em>한 사례입니다.</h2>
+<div class="grid g2" style="align-items:start">
+<div class="rows">
+<div class="row"><div class="k">문제</div><div>성과가 가장 좋던 소재가 플랫폼 심사에서 전량 비승인됐습니다. 매출이 빠지는데 원인이 상품인지 수요인지 노출인지 구분이 안 되는 상태였습니다.</div></div>
+<div class="row"><div class="k">가설</div><div>객단가는 유지되고 구매 건수만 빠졌습니다. 수요보다 도달 쪽 문제로 봤습니다.</div></div>
+<div class="row"><div class="k">실행</div><div>비승인 사유 등급별로 수정안을 만들어 일부승인(제한적 운영)을 받아 집행을 재개했습니다. 사유 고지 화면과 거부 통보는 캡처로 보관했습니다.</div></div>
+<div class="row"><div class="k">결과</div><div>완전 해제는 못 했습니다. 플랫폼이 해제 불가를 통보했습니다. 그 기간을 포함해 담당 51일 중 50일은 손익분기 위에서 마감했습니다.</div></div>
+<div class="row"><div class="k">학습</div><div>소명과 이의제기로 원복을 시도한 6주는 결과적으로 낭비였습니다. 고효율 소재 하나가 재구매까지 담당하는 구조 자체가 리스크라는 걸 배웠습니다.</div></div>
+</div>
+<div class="card dark"><div class="lab">진단 지표 3개</div>
+<table style="color:var(--dtxt)"><tr><td style="border-color:var(--dline)">객단가</td><td class="r" style="border-color:var(--dline);color:var(--dmute)">−1.7% · 거의 그대로</td></tr><tr><td style="border-color:var(--dline)">전체구매율</td><td class="r" style="border-color:var(--dline)"><b style="color:var(--dtxt)">−47%</b> · 급락</td></tr><tr><td style="border:0">재구매율</td><td class="r" style="border:0"><b style="color:var(--dtxt)">−83%</b> · 동반 급락</td></tr></table>
+<hr><p class="acc" style="margin:0 0 10px">재구매율까지 빠진 것을 보고, 그 소재가 재구매 트리거 역할도 하고 있었다고 판단했습니다.</p>
+<div class="small">비승인수정 라인 · 1만원대 투입 → 10만원대 매출 · 소액 테스트 구간, 표본 작음</div></div>
+</div>
+<div class="steps" style="margin-top:28px">
+<div class="step"><div class="d">01 진단</div>객단가 유지, 구매율·재구매율 하락 조합으로 원인을 노출단으로 특정했습니다.</div>
+<div class="step"><div class="d">02 우회</div>등급별 수정안으로 일부승인(제한적 운영)을 받아 집행을 재개했습니다.</div>
+<div class="step"><div class="d">03 표준화</div>비승인수정 라인을 따로 만들었습니다. 1만원대 투입에 10만원대 매출(표본 작음).</div>
+<div class="step"><div class="d">04 증빙</div>Meta로 전이된 뒤 해제 불가 통보를 받았습니다. 사유 고지 화면과 거부 통보를 캡처로 보관했습니다.</div>
+<div class="step"><div class="d">05 대비</div>승인 / 미승인 지속 / 확산 3개 시나리오와 주말 3회 점검 스케줄을 문서화했습니다.</div>
+</div>
+<div class="card" style="margin-top:22px"><div class="lab">For HAGOHAUS</div>패션은 효능 심사 대신 초상권 · 저작권 이슈가 상수입니다. 인플루언서 원본의 권리 기간과 편집 범위를 먼저 확인하는 기준을 갖고 갑니다.</div>
+</div></section>
+
+<!-- 09 CREATIVE -->
+<section id="creative"><div class="wrap">
+<div class="eyebrow">08 · Creative · 기획 · 제작</div>
+<h2>지면별 소재 예시, <em>713장</em> 중 7</h2>
+<p class="sub">정지 소재는 소구 정의, 카피, 발주, 검수까지 맡았고 디자인 제작은 사내 디자인팀입니다. 숏폼 62편은 2026.07부터 인플루언서 원본을 2차 활용해 직접 제작했습니다. 인물 소재는 제외했고 로고와 상표는 가렸습니다.</p>
+<div class="imgs" style="margin-top:22px">
+<figure><img src="img/bsa_sleep.jpg" alt=""><figcaption>브랜드검색 · PC 메인</figcaption></figure>
+<figure><img src="img/bsa_hist.jpg" alt=""><figcaption>브랜드검색 · 서브</figcaption></figure>
+<figure><img src="img/gfa.jpg" alt=""><figcaption>GFA 배너 · 블랙프라이데이</figcaption></figure>
+<figure><img src="img/crm_a.jpg" alt=""><figcaption>알림톡 · 쿠폰 소멸 임박</figcaption></figure>
+<figure><img src="img/crm_b.jpg" alt=""><figcaption>알림톡 · 금액 쿠폰 변형</figcaption></figure>
+<figure><img src="img/kakao.jpg" alt=""><figcaption>카카오 채널 팝업</figcaption></figure>
+<figure><img src="img/store.jpg" alt=""><figcaption>스마트스토어 배너 · N배송 프로모션</figcaption></figure>
+</div>
+<div class="grid g4" style="margin-top:28px">
+<div class="card"><div class="lab">총 장수</div><div class="big" style="font-size:28px">713장</div></div>
+<div class="card"><div class="lab">브랜드검색</div><div class="big" style="font-size:28px">337장</div></div>
+<div class="card"><div class="lab">CRM</div><div class="big" style="font-size:28px">296장</div></div>
+<div class="card"><div class="lab">타임딜 · GFA · 외부몰</div><div class="big" style="font-size:28px">80장</div></div>
+</div>
+<div class="card" style="margin-top:22px"><div class="lab">숏폼 직접 제작 · 2026.07 – 09</div>62편(Meta 51 · TikTok 11), 인플루언서 원본 2차 활용 · 권리 만료분 배제. 판정은 자사몰 UTM 실매출 기준. 상위 9편이 브랜드 평균의 1.5배, BEP 넘긴 소재 3편(최고 143%). 수집 → 랭킹 → 권리 게이트 → 조합 → 렌더 → QC 파이프라인으로 매일 2편이 자동 제작됩니다.</div>
+<p class="foot">담당 기간에 본인이 요청한 건만 · 타 팀 요청 제외 · 초상권과 상표는 브랜드 계약 범위라 개인 포트폴리오에서는 가렸습니다</p>
+</div></section>
+
+<!-- 10 BRAND SIDE -->
+<section id="brand"><div class="wrap">
+<div class="eyebrow">09 · Brand side · 로봇청소기 플래그십 신제품 론칭 · ㈜아이베 · 2024.10 – 2025.01</div>
+<h2>명단을 먼저 모으고 <em>그 명단으로 팔았습니다</em>.</h2>
+<p class="sub">인지도 채널(옥외, 지하철, TV CF)과 구매 채널(사전예약 명단, CRM)의 역할을 나눠 설계했습니다.</p>
+<div class="grid g2" style="align-items:start;margin-top:22px">
+<div class="tw"><table>
+<tr><th colspan="2">브랜드 마케팅 지표</th></tr>
+<tr><td><b style="font-size:22px">65%</b></td><td>사전예약 관심고객 구매 전환율<div class="small">[기여도 확인] · [원자료 부재]</div></td></tr>
+<tr><td><b style="font-size:22px">1,100%↑</b></td><td>브랜드 공식 블로그 월간 조회수 · 방문자 300%↑ · 재방문 160%↑<div class="small">[기간 · 비교 기준 미확인]</div></td></tr>
+<tr><td><b style="font-size:22px">44만</b></td><td>인플루언서 브랜디드 콘텐츠 최대 조회수 · 구독자 272만 IT 유튜버<div class="small">[기여도 확인, 제작은 크리에이터]</div></td></tr>
+</table>
+<p class="small" style="margin-top:12px">운영: 정기 협업 체계 구축(섭외·제안·예산 조율·원고 검수·2차 광고 연계) · CRM 시나리오 단독 설계<br>그 외: 제품·모델컷 촬영 디렉팅 · 언론 홍보 · PR/바이럴 대행사 관리</p></div>
+<div class="card dark"><div class="lab">다시 한다면</div>
+<div class="rows" style="gap:14px">
+<div><b>인플루언서 콘텐츠를 먼저 내보내고 추적을 나중에 붙였다</b><div class="small">지금은 발행 전에 전용 랜딩과 UTM을 먼저 붙입니다.</div></div>
+<div><b>사전예약자를 기간으로만 나눴다</b><div class="small">채널과 관심 시점으로 나눠 메시지를 따로 쓰는 게 맞았습니다.</div></div>
+<div><b>OOH · TV CF의 기여를 갈라내지 못했다</b><div class="small">지역과 기간을 나눈 증분 측정을 미리 설계했어야 했습니다.</div></div>
+</div><hr><p class="acc" style="margin:0">소재를 만드는 쪽과 집행하는 쪽을 둘 다 해봤습니다.</p></div>
+</div>
+</div></section>
+
+<!-- 11 TOOLS -->
+<section id="tools"><div class="wrap">
+<div class="eyebrow">10 · Data &amp; automation</div>
+<h2>반복되는 판단은 <em>스크립트</em>로 자동화했습니다.</h2>
+<div class="grid g2" style="align-items:start">
+<div class="rows" style="gap:22px">
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">만든 것 01</div><h3>소재 자동 ON/OFF 판정 스크립트</h3><p class="sub">Meta Marketing API + 작업 스케줄러 · 매시 11분. 4단 가드(표본 미달 보류 / 성과 자동 보호 / 이중 문턱 OFF 130%·재개 150% / 새벽 하드캡). 1주 dry-run 후 라이브.</p><div class="small">→ 판정 빈도 하루 1~2회(수동) → 24회(자동). 00–09시 공백 소멸</div></div>
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">만든 것 02</div><h3>시간별 ROAS 스냅샷 (Apps Script)</h3><p class="sub">매 정시 제품 × 채널 지출·매출 스냅샷. 마감 매출 = 현재 + B + (잔여 집행 × m)로 착지 추정.</p><div class="small">→ 미달 확정을 마감 후 → 장중으로 이동</div></div>
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">만든 것 03</div><h3>소재별 KPI 대시보드 (Meta API · Ads Script · Python)</h3><p class="sub">KPI 8종을 직전 동일기간 대비 증감과 함께 표시. 매체가 폐기한 구간은 역산하고 “실측 아님”으로 구분 표기.</p><div class="small">→ 콘텐츠팀 · 퍼포먼스팀 상시 사용 · 타 브랜드로 확장</div></div>
+<p class="small">위 셋은 대표 3종입니다. 2026.07 – 09 사이 같은 방식으로 운영 도구 17종을 만들었습니다.</p>
+</div>
+<div class="card dark"><div class="lab">지표 정의 관련 기록</div>
+<div class="rows" style="gap:14px">
+<div><div class="small">01</div>사내 리포트의 “쿠팡 ROAS 500%”가 실제 집행 효율이 아니라 배분값임을 확인하고 판정에서 분리했습니다.</div>
+<div><div class="small">02</div>매체 API 기여 기준과 시트 실매출 기준이 어긋나는 것을 확인하고, 실매출을 판단 기준으로 고정했습니다.</div>
+<div><div class="small">03</div>광고 계정이 둘로 나뉜 구간에 UTM을 분리 설계해 계정별 기여도를 나눠 판정했고, 매체별 소재 UTM 중복은 전수 감사해 전건 해소했습니다(2026.08).</div>
+</div><hr><p class="acc" style="margin:0">GA4는 기본만 씁니다. 매체 보고 성과와 실매출이 다를 때 기준을 정하는 일은 위 세 건이 전부 그 일이고, 시딩 성과도 같은 방식으로 귀속합니다.</p></div>
+</div>
+</div></section>
+
+<!-- 12 PRINCIPLES -->
+<section id="rules"><div class="wrap">
+<div class="eyebrow">11 · Operating principles</div>
+<h2>운영할 때 지키는 <em>네 가지</em></h2>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(min(380px,100%),1fr))">
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">PRINCIPLE 01</div><h3>목표선을 먼저 정한다</h3><p class="sub">T-ROAS(목표), L-ROAS(하한), BEP(손익분기) 3단을 먼저 정합니다. 브랜드마다 원가 구조가 달라 손익분기가 다르고, 절대값 하나로 계정을 비교하는 건 손익 구조가 같을 때만 됩니다.</p></div>
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">PRINCIPLE 02</div><h3>조정 안 하는 것도 선택지에 둔다</h3><p class="sub">매 정시 스냅샷으로 착지를 추정하고, 못 맞출 날은 마감 전에 보고합니다. 조정 직후 한 번 더 스냅샷을 찍어 조정 효과를 확인합니다.</p></div>
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">PRINCIPLE 03</div><h3>사람이 볼 것과 스크립트가 볼 것을 나눈다</h3><p class="sub">표본이 없으면 끄지 않습니다. 성과가 좋으면 손대지 않습니다. 끄는 문턱과 켜는 문턱을 다르게 둡니다.</p></div>
+<div><div class="small" style="color:var(--acc);letter-spacing:.1em">PRINCIPLE 04</div><h3>지표 정의부터 맞춘다</h3><p class="sub">추정치는 범위로 보고합니다. 가설이 틀리면 기각한 사실도 적습니다. 콘텐츠팀에는 지표 대신 소재가 이탈하는 구간을 보여줍니다.</p></div>
+</div>
+<div class="card" style="margin-top:22px"><div class="lab">브랜드 마케팅으로 옮기면</div>인플루언서 · 촬영 · SNS · 광고로 수단이 나뉘어도 구조는 같습니다. 브랜드별로 하던 기준을 수단별로 두면 됩니다.</div>
+</div></section>
+
+<!-- 13 DIAGNOSIS -->
+<section id="diag" style="background:var(--dark);color:var(--dtxt)"><div class="wrap">
+<div class="eyebrow" style="color:var(--accd)">12 · Diagnosis · 하고하우스 어몽 · 큐리티, 공개 정보 기준</div>
+<h2 style="color:var(--dtxt)">공개 정보로 본 <em style="color:var(--accd)">네 가지</em>와 가설 하나</h2>
+<p class="small" style="color:var(--dmute)">공개 정보 기반 추정 · 조사일 2026.09.15 · 내부 데이터에 접근하지 않았습니다</p>
+<div class="rows" style="gap:26px;margin-top:22px">
+<div class="row"><div class="k" style="color:var(--accd)">01</div><div><h3 style="color:var(--dtxt)">40개 브랜드를 키우는 인큐베이터</h3><p style="color:var(--dmute)">대명화학 계열. 마뗑킴을 키워낸 곳으로 어몽 · 큐리티 · 마지두마뗑 · 드파운드 등 40개 브랜드와 패션 플랫폼 하고(HAGO), 백화점 유통을 같이 운영. 사원 300명, 판교.</p><p style="color:var(--accd);margin:0">→ 브랜드 하나가 아니라 브랜드 포트폴리오 안의 한 자리입니다. 브랜드마다 기준을 따로 두고 비교하는 방식이 여기에 맞습니다.</p></div></div>
+<div class="row"><div class="k" style="color:var(--accd)">02</div><div><h3 style="color:var(--dtxt)">브랜드 마케팅과 그로스가 나뉘어 있다</h3><p style="color:var(--dmute)">공고가 마케팅(인플루언서 · 룩북 · SNS · 대행사)과 그로스 파트(광고)를 구분해 두고 협업을 적었습니다. Meta 집행은 마케팅 쪽에도 있습니다.</p><p style="color:var(--accd);margin:0">→ 두 파트가 같은 숫자를 봐야 합니다. 브랜딩 콘텐츠와 전환 광고를 둘 다 해 본 사람이 그 사이를 잇습니다.</p></div></div>
+<div class="row"><div class="k" style="color:var(--accd)">03</div><div><h3 style="color:var(--dtxt)">인플루언서 시딩과 서포터즈가 핵심 채널</h3><p style="color:var(--dmute)">시딩 · 서포터즈 · 콘텐츠 2차 활용 · 기획전 소스 수급이 주업무. 원본은 크리에이터 소유라 권리 기간 · 편집 범위가 건마다 다릅니다.</p><p style="color:var(--accd);margin:0">→ 권리 기간 관리와 2차 활용 판정은 지금 매일 하는 일입니다. 시딩 성과를 UTM · 코드로 귀속해 다음 시즌 섭외 근거로 씁니다.</p></div></div>
+<div class="row"><div class="k" style="color:var(--accd)">04</div><div><h3 style="color:var(--dtxt)">시즌 주기가 짧다</h3><p style="color:var(--dmute)">패션은 시즌마다 룩북 · 신상 · 기획전이 돌아가고, 지난 시즌 소재가 빨리 낡습니다.</p><p style="color:var(--accd);margin:0">→ 소재 노후화 판정(사례 1)을 시즌 단위로 옮기고, 룩북 촬영 소스를 광고 · SNS · 기획전에 재활용하는 계획을 촬영 전에 세웁니다.</p></div></div>
+</div>
+<p class="small" style="color:var(--dmute);margin-top:28px">출처: 회사 소개 페이지 · 어패럴뉴스(2025) · 채용 공고 · 강점은 브랜드 인큐베이팅과 플랫폼. 마케팅은 그 위에 브랜드를 얹는 일. 공개 정보 기반 추정이라 틀린 부분은 면접에서 여쭙고 싶습니다.</p>
+</div></section>
+
+<!-- 14 90 DAYS -->
+<section id="plan"><div class="wrap">
+<div class="eyebrow">13 · First 90 days</div>
+<h2>입사 후 90일 동안 <em>무엇을 먼저 확인할지</em></h2>
+<div class="steps">
+<div class="card"><div class="d" style="color:var(--acc);font-size:12px;letter-spacing:.14em;font-weight:600">DAY 1–30</div><h3>읽기</h3><div class="small">브랜드 언어 확인</div><ul class="sub"><li>어몽 · 큐리티 룩북 전 시즌, 하고 랭킹, 리뷰 전수 읽기. 두 브랜드의 톤 · 타깃 · 가격대 정리.</li><li>인플루언서 · 서포터즈 풀과 권리 기간, 2차 활용 가능 소스 목록화.</li><li>SNS · 카카오 채널 현황과 대행사 계약 범위 파악. 그로스 파트와 지표 정의 합의.</li></ul><p class="acc" style="font-weight:600">산출물: 브랜드별 콘텐츠 가이드 1장, 인플루언서 · 소스 인벤토리 1장</p><p class="small" style="margin:0">브랜드 마케팅도 숫자가 먼저입니다. 무엇을 성과로 볼지 그로스 파트와 먼저 맞춰야 이후 판단이 전부 맞습니다.</p></div>
+<div class="card"><div class="d" style="color:var(--acc);font-size:12px;letter-spacing:.14em;font-weight:600">DAY 31–60</div><h3>첫 시즌 실행</h3><div class="small">시딩 → 콘텐츠 → 2차 활용</div><ul class="sub"><li>시즌 룩북 촬영 1회 진행 · 이미지 셀렉. 촬영 전에 광고 · SNS · 기획전 재활용 컷 목록을 정합니다.</li><li>인플루언서 시딩 1라운드 · 서포터즈 운영. 성과는 UTM · 코드로 귀속해 다음 섭외 근거로.</li><li>Meta 광고에 룩북 · 인플루언서 소재를 올리고 그로스 파트와 같은 기준으로 판정.</li></ul><p class="acc" style="font-weight:600">산출물: 시즌 콘텐츠 캘린더, 시딩 성과표, 소재 판정 기준</p><p class="small" style="margin:0">진단의 가설을 확인하거나 기각합니다. 272만 유튜버 정기 협업 체계를 만들 때 쓴 절차를 그대로 씁니다.</p></div>
+<div class="card"><div class="d" style="color:var(--acc);font-size:12px;letter-spacing:.14em;font-weight:600">DAY 61–90</div><h3>체계화와 이관</h3><div class="small">반복 작업 자동화</div><ul class="sub"><li>시딩 · 서포터즈 · 촬영 · 대행사 관리 프로세스를 문서로 고정. 반복 리포트는 자동화.</li><li>다음 시즌 인플루언서 정기 협업 후보와 예산안 제출.</li><li>판정 기준과 캘린더를 팀에 이관합니다.</li></ul><p class="acc" style="font-weight:600">산출물: 운영 매뉴얼, 다음 시즌 협업안, 자동 리포트</p><p class="small" style="margin:0">국내에서 브랜드 5개를 같은 절차로 인수했습니다. 브랜드가 늘어도 같은 순서로 시작합니다.</p></div>
+</div>
+<p style="margin-top:24px;color:var(--ink);font-weight:600">90일 안에 매출을 올리겠다는 계획은 아닙니다. 90일 뒤에 팀이 그대로 쓸 수 있는 브랜드별 콘텐츠 기준과 시딩 성과표를 남기는 것이 목표입니다.</p>
+</div></section>
+
+<!-- 15 CLOSING -->
+<section id="close"><div class="wrap">
+<div class="eyebrow">14 · Closing · 지원 동기</div>
+<h2>패션은 처음입니다.<br>대신 <em>브랜드를 알리고 숫자로 증명하는 일은</em><br>지난 5년 동안 계속 해왔습니다.</h2>
+<div class="grid g2" style="align-items:start">
+<div>
+<h3 style="color:var(--acc);font-size:13px;letter-spacing:.12em">왜 이 회사인가</h3><p class="sub">마뗑킴을 키워낸 인큐베이터에서 다음 브랜드를 맡는 자리입니다. 브랜드 마케팅과 광고를 둘 다 해 봤고, 인플루언서 콘텐츠를 광고까지 잇는 일을 지금도 매일 합니다. 그 둘을 한 자리에서 쓰고 싶습니다.</p>
+<h3 style="color:var(--acc);font-size:13px;letter-spacing:.12em;margin-top:22px">왜 지금인가</h3><p class="sub">4개 브랜드를 번갈아 맡으면서 브랜드 하나를 끝까지 맡아 키워보고 싶다는 생각이 커졌습니다. 로봇청소기에서 했던 브랜드 마케팅을 다시 하고 싶었고, 패션은 그 일이 가장 잘 보이는 카테고리입니다.</p>
+<p class="sub" style="margin-top:22px">옷을 파는 브랜드에서 콘텐츠가 얼마를 만들었는지 숫자로 말할 수 있는 마케터가 되고 싶습니다. 어몽과 큐리티가 그 첫 사례가 됐으면 합니다.</p>
+</div>
+<div class="card dark"><div class="lab">약속할 수 있는 것</div>
+<div class="rows" style="gap:12px">
+<div><div class="small">01</div><b>못 맞출 날은 마감 전에 미리 보고합니다</b></div>
+<div><div class="small">02</div><b>가설이 틀리면 기각한 사실도 기록합니다</b></div>
+<div><div class="small">03</div><b>반복 계산은 자동화합니다</b></div>
+<div><div class="small">04</div><b>패션 감도는 첫 30일에 룩북 · 랭킹 · 리뷰로 채우겠습니다</b></div>
+</div><hr>
+<div><b style="color:var(--dtxt)">박제이</b><div class="small"><a href="mailto:parkjei1203@gmail.com" style="color:var(--accd)">parkjei1203@gmail.com</a></div></div>
+</div>
+</div>
+</div></section>
+
+<footer><div class="wrap">
+<div>모든 수치는 사내 일일 광고효율보고 원문 266건(2025.12.11 ~ 2026.08.24)에서 재집계했습니다. ROAS는 브랜드 전체 기준(자사몰 + 쿠팡 + 스마트스토어 + 외부몰), 환불 반영 후, 익일 확정값입니다. 손익분기 값은 사내 기준이라 상회 일수만 표기했습니다. 브랜드명과 소재 실물은 면접에서 별도 제출합니다.</div>
+<div style="margin-top:14px"><a href="portfolio.pdf">PDF 버전 (18장)</a> · 읽어 주셔서 감사합니다</div>
+</div></footer>
+
+</body>
+</html>
